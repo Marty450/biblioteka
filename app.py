@@ -13,4 +13,5 @@ if st.button("Добави книга"):
     }
     st.session_state.books.append(book)
     st.success("Книгата е добавена!")
-
+    st.write("Списък с книги: ")
+    st.write(st.session_state.books)
